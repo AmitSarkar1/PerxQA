@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="16" passed="10" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-13T14:10:14 IST" name="PerxTech" finished-at="2022-06-13T14:14:54 IST" duration-ms="279965">
+    <groups>
+    </groups>
+    <test started-at="2022-06-13T14:10:14 IST" name="Dashboard" finished-at="2022-06-13T14:14:54 IST" duration-ms="279965">
+      <class name="testCases.RewardCreationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:05 IST" name="setUp" finished-at="2022-06-13T14:14:06 IST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:06 IST" name="openPage" finished-at="2022-06-13T14:14:09 IST" duration-ms="2488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyBrandsTagsCategoriesLabelsFieldDisappersInPrivateTypeRewardTest()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:09 IST" name="verifyBrandsTagsCategoriesLabelsFieldDisappersInPrivateTypeRewardTest" finished-at="2022-06-13T14:14:19 IST" duration-ms="9698" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+fields did not disappear on private type of reward expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+fields did not disappear on private type of reward expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testCases.RewardCreationTest.verifyBrandsTagsCategoriesLabelsFieldDisappersInPrivateTypeRewardTest(RewardCreationTest.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandsTagsCategoriesLabelsFieldDisappersInPrivateTypeRewardTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:22 IST" name="tearDown" finished-at="2022-06-13T14:14:22 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:22 IST" name="setUp" finished-at="2022-06-13T14:14:23 IST" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:23 IST" name="openPage" finished-at="2022-06-13T14:14:26 IST" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyRewardValidityPeriodHaveBothStartAndEndDatesTest()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:26 IST" name="verifyRewardValidityPeriodHaveBothStartAndEndDatesTest" finished-at="2022-06-13T14:14:35 IST" duration-ms="8620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRewardValidityPeriodHaveBothStartAndEndDatesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:35 IST" name="tearDown" finished-at="2022-06-13T14:14:35 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:35 IST" name="setUp" finished-at="2022-06-13T14:14:36 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:36 IST" name="openPage" finished-at="2022-06-13T14:14:39 IST" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifySuccessfulSubmissionHappensOnlyWhenPayloadContainsMandInfoTest()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:39 IST" name="verifySuccessfulSubmissionHappensOnlyWhenPayloadContainsMandInfoTest" finished-at="2022-06-13T14:14:53 IST" duration-ms="14367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSubmissionHappensOnlyWhenPayloadContainsMandInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RewardCreationTest@576d5deb]" started-at="2022-06-13T14:14:53 IST" name="tearDown" finished-at="2022-06-13T14:14:54 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RewardCreationTest -->
+      <class name="testCases.OverviewTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:11:35 IST" name="setUp" finished-at="2022-06-13T14:11:36 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:11:36 IST" name="openPage" finished-at="2022-06-13T14:11:39 IST" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyAdminHasSufficientPermissionToVisitBulkFileUploadPage()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:11:39 IST" name="verifyAdminHasSufficientPermissionToVisitBulkFileUploadPage" finished-at="2022-06-13T14:11:43 IST" duration-ms="3430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminHasSufficientPermissionToVisitBulkFileUploadPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:11:43 IST" name="tearDown" finished-at="2022-06-13T14:11:43 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:11:43 IST" name="setUp" finished-at="2022-06-13T14:11:44 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:11:44 IST" name="openPage" finished-at="2022-06-13T14:11:47 IST" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyRewardAdminDoesNotHaveAccessToOtherSectionsTest()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:11:47 IST" name="verifyRewardAdminDoesNotHaveAccessToOtherSectionsTest" finished-at="2022-06-13T14:13:29 IST" duration-ms="102732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRewardAdminDoesNotHaveAccessToOtherSectionsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:13:29 IST" name="tearDown" finished-at="2022-06-13T14:13:30 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:13:30 IST" name="setUp" finished-at="2022-06-13T14:13:31 IST" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:13:31 IST" name="openPage" finished-at="2022-06-13T14:13:34 IST" duration-ms="3031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyRewardAdminHasSufficientPermissionToCreateRewardTest()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:13:34 IST" name="verifyRewardAdminHasSufficientPermissionToCreateRewardTest" finished-at="2022-06-13T14:13:37 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRewardAdminHasSufficientPermissionToCreateRewardTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.OverviewTest@130c12b7]" started-at="2022-06-13T14:13:37 IST" name="tearDown" finished-at="2022-06-13T14:13:37 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.OverviewTest -->
+      <class name="testCases.BulkActionsTest">
+        <test-method is-config="true" signature="startLogs()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:14 IST" name="startLogs" finished-at="2022-06-13T14:10:14 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startLogs -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:14 IST" name="setUp" finished-at="2022-06-13T14:10:20 IST" duration-ms="6212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:20 IST" name="openPage" finished-at="2022-06-13T14:10:23 IST" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyNewlyUploadedFileReflectsInListTest()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:23 IST" name="verifyNewlyUploadedFileReflectsInListTest" finished-at="2022-06-13T14:10:36 IST" duration-ms="13170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewlyUploadedFileReflectsInListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:36 IST" name="tearDown" finished-at="2022-06-13T14:10:36 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:36 IST" name="setUp" finished-at="2022-06-13T14:10:38 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:38 IST" name="openPage" finished-at="2022-06-13T14:10:41 IST" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyUserAbleToUploadCsvTypeFileTest()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:41 IST" name="verifyUserAbleToUploadCsvTypeFileTest" finished-at="2022-06-13T14:10:50 IST" duration-ms="8977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToUploadCsvTypeFileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:50 IST" name="tearDown" finished-at="2022-06-13T14:10:50 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:50 IST" name="setUp" finished-at="2022-06-13T14:10:51 IST" duration-ms="1405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:51 IST" name="openPage" finished-at="2022-06-13T14:10:54 IST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyUserAbleToUploadExcelTypeFile()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:10:54 IST" name="verifyUserAbleToUploadExcelTypeFile" finished-at="2022-06-13T14:11:03 IST" duration-ms="8259" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Excel type file not accepted expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Excel type file not accepted expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testCases.BulkActionsTest.verifyUserAbleToUploadExcelTypeFile(BulkActionsTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToUploadExcelTypeFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:06 IST" name="tearDown" finished-at="2022-06-13T14:11:06 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:06 IST" name="setUp" finished-at="2022-06-13T14:11:07 IST" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:07 IST" name="openPage" finished-at="2022-06-13T14:11:10 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyUserAbleToUploadTxtTypeFileTest()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:10 IST" name="verifyUserAbleToUploadTxtTypeFileTest" finished-at="2022-06-13T14:11:19 IST" duration-ms="8460" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Text type file not accepted expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Text type file not accepted expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testCases.BulkActionsTest.verifyUserAbleToUploadTxtTypeFileTest(BulkActionsTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToUploadTxtTypeFileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:22 IST" name="tearDown" finished-at="2022-06-13T14:11:22 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:22 IST" name="setUp" finished-at="2022-06-13T14:11:24 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:24 IST" name="openPage" finished-at="2022-06-13T14:11:26 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyUserNotAbleToUploadPDFTypeFileTest()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:26 IST" name="verifyUserNotAbleToUploadPDFTypeFileTest" finished-at="2022-06-13T14:11:35 IST" duration-ms="8376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNotAbleToUploadPDFTypeFileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BulkActionsTest@121314f7]" started-at="2022-06-13T14:11:35 IST" name="tearDown" finished-at="2022-06-13T14:11:35 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.BulkActionsTest -->
+      <class name="testCases.RewardsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:13:37 IST" name="setUp" finished-at="2022-06-13T14:13:38 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:13:38 IST" name="openPage" finished-at="2022-06-13T14:13:41 IST" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="newlyCreatedRewardPresentInListTest()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:13:41 IST" name="newlyCreatedRewardPresentInListTest" finished-at="2022-06-13T14:13:56 IST" duration-ms="15013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newlyCreatedRewardPresentInListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:13:56 IST" name="tearDown" finished-at="2022-06-13T14:13:56 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:13:56 IST" name="setUp" finished-at="2022-06-13T14:13:57 IST" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openPage()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:13:57 IST" name="openPage" finished-at="2022-06-13T14:14:00 IST" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="verifyClickingCreateNewButtonLeadsToRewardCreationPageTest()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:14:00 IST" name="verifyClickingCreateNewButtonLeadsToRewardCreationPageTest" finished-at="2022-06-13T14:14:05 IST" duration-ms="5049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickingCreateNewButtonLeadsToRewardCreationPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RewardsTest@5e600dd5]" started-at="2022-06-13T14:14:05 IST" name="tearDown" finished-at="2022-06-13T14:14:05 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RewardsTest -->
+    </test> <!-- Dashboard -->
+  </suite> <!-- PerxTech -->
+</testng-results>

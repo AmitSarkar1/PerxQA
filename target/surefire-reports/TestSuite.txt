@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 283.208 s <<< FAILURE! - in TestSuite
+testCases.BulkActionsTest.verifyUserAbleToUploadExcelTypeFile  Time elapsed: 11.615 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Excel type file not accepted expected [true] but found [false]
+	at testCases.BulkActionsTest.verifyUserAbleToUploadExcelTypeFile(BulkActionsTest.java:37)
+
+testCases.BulkActionsTest.verifyUserAbleToUploadTxtTypeFileTest  Time elapsed: 11.776 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Text type file not accepted expected [true] but found [false]
+	at testCases.BulkActionsTest.verifyUserAbleToUploadTxtTypeFileTest(BulkActionsTest.java:51)
+
+testCases.RewardCreationTest.verifyBrandsTagsCategoriesLabelsFieldDisappersInPrivateTypeRewardTest  Time elapsed: 12.959 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	fields did not disappear on private type of reward expected [true] but found [false]
+	at testCases.RewardCreationTest.verifyBrandsTagsCategoriesLabelsFieldDisappersInPrivateTypeRewardTest(RewardCreationTest.java:65)
+
